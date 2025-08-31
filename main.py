@@ -330,6 +330,12 @@ class APIHandler:
             "object": "list",
             "data": [
                 {
+                  "id": "longcat-flash",
+                  "object": "model",
+                  "created": int(time.time()),
+                  "owned_by": "longcat"
+                },
+                {
                     "id": "LongCat",
                     "object": "model",
                     "created": int(time.time()),
@@ -338,7 +344,7 @@ class APIHandler:
                 {
                     "id": "LongCat-Search",
                     "object": "model",
-                    "created": 1753777714,
+                    "created": int(time.time()),
                     "owned_by": "longcat"
                 }
             ]
